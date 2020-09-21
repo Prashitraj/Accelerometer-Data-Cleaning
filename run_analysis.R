@@ -1,5 +1,5 @@
 library(dplyr)
-setwd("~/Downloads/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
+setwd("./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
 
 # loading training data
 x_train<-read.table("train/X_train.txt")
